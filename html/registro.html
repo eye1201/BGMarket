@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Registro | BGMarkte</title>
+		<meta charset="UTF-8"/>
+		<link rel="icon" href="..\img\bgmarketlogo.png"/>
+		<link rel="stylesheet" href="..\css\eyewebstyle.css" type="text/css"/>
+		<meta name= "keywords" content= "bg, market, magazin, balkanica, registro"/>
+	</head>
+	<body>
+		<!--encabezado-->
+		<header>
+			<table>
+				<tr>
+					<td>
+						<a href="..\index.html""><img type="img" id="logo" src="..\img\bgmarketlogo.png" alt="BGMarketLogo"/></a>
+					</td>
+					<td>
+						<ul class="navbar">
+							  <li><a href="..\index.html">Inicio</a></li>
+							  <li><a href="..\html\productos.html">Productos</a></li>
+							  <li><a href="..\html\contacto.html">Contacto</a></li>
+							  <li><a href="..\html\quienes.html">Quiénes somos</a></li>
+							  <li><a href="..\html\registro.html">Registro</a></li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+		</header>
+		<!--fin encabezado-->
+		<!--contenido de pagina de pagina-->
+		<div class="form">
+			<form action="mailto:eyereviews@protonmail" method="post">
+				<fieldset>
+					<legend>Datos de acceso</legend>
+					<table>
+						<tr>
+							<td><label for="username">Nombre de usuario:</label></td>
+							<td><label for="pass">Contraseña:</label></td>
+						</tr>
+						<tr>
+							<td><input type="text" name="nombre" id="username" size="20%"/></td>
+							<td><input type="password" name="contrasena" id="pass" placeholder="mínmo 8 caracteres" pattern="{8}" title="has introducido menos de 8 caracteres"size="15em"/></td>
+						</tr>
+					</table>
+				</fieldset>
+				<fieldset>
+					<legend>Datos personales</legend>
+					<table>
+						<tr>
+							<td><label for="name">Nombre:</label></td>
+						</tr>
+						<tr>
+							<td><input type="text" name="nombre" id="name" size="20em"/></td>
+						</tr>
+						<tr>
+							<td><label for="surname">Apellidos:</label></td>
+						</tr>
+						<tr>
+							<td><input type="text" name="apellidos" id="surname" size="40em"/></td>
+						</tr>
+						<tr>
+							<td><label for="fechanacimiento">Fecha nacimiento (dd/mm/aaaa):</label></td>
+						</tr>
+						<tr>
+							<td><input type="date" name="fechanacimiento" id="fechanacimiento" size="10"/></td>
+						</tr>
+						<tr>
+							<td colspan="2"><label for="domicilio">Domicilio (Calle, plaza y número):</label></td>
+							<td><label for="cp">Código Postal:</label></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="text" name="direccion" id="domicilio" size="50"/></td>
+							<td><input type="text" name="cp" size="5" id="cp" pattern="[0-9]{5}" title="código postal incorrecto"/></td>
+						</tr>
+						<tr>
+							<td><label for="localidad">Localidad:</label></td>
+							<td><label for="provincia">Provincia:</label></td>
+						</tr>
+						<tr>
+							<td><input type="text" name="localidad" id="localidad" size="30"/></td>
+							<td>
+								<select id="provincia">
+									<option selected="" disabled=""> - Seleccionar - </option>
+									<option value="alava">Álava (Áraba)</option>
+									<option value="albacete">Albacete</option>
+									<option value="alicante">Alicante</option>
+									<option value="almeria">Almería</option>
+									<option value="asturias">Asturias</option>
+									<option value="avila">Ávila</option>
+									<option value="badajoz">Badajoz</option>
+									<option value="barcelona">Barcelona</option>
+									<option value="burgos">Burgos</option>
+									<option value="caceres">Cáceres</option>
+									<option value="cadiz">Cádiz</option>
+									<option value="cantabria">Cantabria</option>
+									<option value="castellon">Castellón</option>
+									<option value="ciudad real">Ciudad Real</option>
+									<option value="cordoba">Córdoba</option>
+									<option value="cuenca">Cuenca</option>
+									<option value="gerona">Gerona (Girona)</option>
+									<option value="granada">Granada</option>
+									<option value="guadalajara">Guadalajara</option>
+									<option value="guipuzcoa">Guipúzcoa (Gipuzkoa)</option>
+									<option value="huelva">Huelva</option>
+									<option value="huesca">Huesca</option>
+									<option value="islas baleares">Islas Baleares</option>
+									<option value="jaen">Jaén</option>
+									<option value="la coruña">La Coruña (A Coruña)</option>
+									<option value="la rioja">La Rioja</option>
+									<option value="las palmas">Las Palmas</option>
+									<option value="leon">León</option>
+									<option value="lerida">Lérida (Lleida)</option>
+									<option value="lugo">Lugo</option>
+									<option value="madrid">Madrid</option>
+									<option value="mañaga">Málaga</option>
+									<option value="murcia">Murcia</option>
+									<option value="navarra">Navarra</option>
+									<option value="orense">Orense (Ourense)</option>
+									<option value="palencia">Palencia</option>
+									<option value="pontevedra">Pontevedra</option>
+									<option value="salamanca">Salamanca</option>
+									<option value="segovia">Segovia</option>
+									<option value="sevilla">Sevila</option>
+									<option value="soria">Soria</option>
+									<option value="tarragona">Tarragona</option>
+									<option value="teneriga">Tenerife</option>
+									<option value="teruel">Teruel</option>
+									<option value="toledo">Toledo</option>
+									<option value="valencia">Valencia</option>
+									<option value="valladolid">Valladolid</option>
+									<option value="vizcaya">Vizcaya (Bizkaia)</option>
+									<option value="zamora">Zamora</option>
+									<option value="zaragoza">Zaragoza</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="email">Correo electrónico:</label></td>
+							<td><label for="telefono">Teléfono:</label></td>
+						</tr>
+						<tr>
+							<td><input type="text" name="email" id="email" size="40" placeholder="usuario@dominio.com" pattern="[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9_\.\-]+\.[a-zA-Z]{2,3}" title="correo no valido, debe contener la @ y el .com"/></td>
+							<td><input size="10" type="text" name="telefono" id="telefono" pattern="[6-9][0-9]{8}"/></td>
+						</tr>
+					</table>
+				</fieldset>
+				<fieldset>
+					<legend>Otra información</legend>
+					<table>
+						<tr>
+							<td>
+								<label for="intereses">Intereses:</label>
+							</td>
+						</tr>
+						<tr>
+							<td>
+							<select name="intereses" id="intereses" multiple="">
+								<option value="QuesoBG" label="Queso de Bulgaria"/>
+								<option value="EmbuditosBG" label="Embuditos de Bulgaria"/>
+								<option value="YogurBG" label="Yogur de Bulgaria"/>
+								<option value="BebidasBG" label="Bebidas de Bulgaria"/>
+								<option value="DulcesBG" label="Dulces de Bulgaria"/>
+							</select>
+						</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="howyouknowus">¿Cómo conoció el sitio web?</label>
+							</td>
+						</tr>
+						<tr>
+							<td><input type="text" name="howyouknowus" list="conociste" size="50"/></td>
+						<td>
+							<datalist id="conociste">
+								<option value="amigos" label="Amigos me recomendaron vuestra tienda"/> 
+								<option value="familiares" label="Familiares me recomendaron vuestra tienda"/> 
+							</datalist>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="suscripcion" value="me_suscribo" checked=""/>¿Está interesado en recibir publicidad y/o boletines de la empresa?</td>
+						</tr>
+					</table>
+				</fieldset>
+				<div id="button">
+					<input type="submit" name="signup" value="Registrarse"/>
+					<input type="reset" name="delete" value="Borrar los datos introducidos"/>
+				</div>
+			</form>
+		</div>
+		<!--fin contenido de pagina de pagina-->
+		<!--pie de pagina-->
+		<footer>
+			<p>BGMarket, C.C. Espacio León, Avda. País Leonés, 12, 24010, León.	&nbsp;	Teléfono de contacto:600 000 000.	&nbsp;	Correo: eyereviews@protonmail.com</p>
+			<p>©Copyright 2018 - 2019 | designed by: E.Y.E.</p>
+		</footer>
+		<!--fin pie de pagina-->
+	</body>
+</html>
