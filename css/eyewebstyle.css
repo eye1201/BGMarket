@@ -33,7 +33,6 @@ ul.navbar li a:hover {
 	background-color: #00FFFF;
 }
 
-
 body {
 	background-image:url("../img/Solid Colors/Solid Mint.png");
 	background-position:center;
@@ -72,14 +71,18 @@ body {
 }
 
 #imgproducto {
-	
 	height:200px; 
 	width:200px;
 }
 
-table, td, th, #productos {
+table, td, th #productos {
 	font-family:Comic Sans MS;
 	font-style:center;
+}
+
+tbody.productos2 {
+	background-image:url("../img/Solid Colors/Solid Lavender.png");
+	background-attachment:scroll;
 }
 
 
