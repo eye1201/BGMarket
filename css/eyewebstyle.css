@@ -77,7 +77,7 @@ body {
 
 table, td, th #productos {
 	font-family:Comic Sans MS;
-	font-style:center;
+	text-align:center;
 }
 
 tbody.productos2 {
