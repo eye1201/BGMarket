@@ -1,0 +1,81 @@
+bgmarket {
+	background-image:url("../img/Solid Colors/Solid Mint.png");
+	background-position:center;
+	background-repeat:repeat;
+}
+
+nombre, descripcion, direccion, web, telefono, email, disennoweb {
+	display: block;
+}
+
+nombre {
+	text-align:center;
+	font-family:Comic Sans MS;
+	margin: 20px;
+	padding: auto;
+	color: black;
+	font-size: 40px;
+	font-weight:bold;
+}
+descripcion, direccion, web, telefono, email, disennoweb {
+	text-align:left;
+	font-family:Comic Sans MS;
+	margin: 20px;
+	padding: 5px 10px;
+	color: black;
+	font-size: 100%;
+}
+
+productos {
+	display: table;
+	font-family:Comic Sans MS;
+	border-spacing: 10px;
+}
+
+producto {
+	display: table-row;
+}
+
+img,nombreproducto,descripcionproducto,precio {
+	background-image:url("../img/Solid Colors/Solid Lavender.png");
+	background-attachment:scroll;
+	display: table-cell;
+}
+
+img {
+	height:200px; 
+	width:200px;
+}
+
+nombreproducto {
+	font-weight:bold;
+	text-align:center;
+}
+
+
+descripcionproducto {
+	font-style:italic;
+}
+
+div {
+	display:block;
+	margin: 20px;
+	padding: auto;
+}
+
+detalles {
+	font-style:italic;
+	font-size:13px;
+}
+
+p {
+	display:inline-block;
+	margin: 20px;
+	padding: auto;
+}
+
+precio {
+	font-weight:bold;
+	margin:auto;
+	padding:5px;
+}
