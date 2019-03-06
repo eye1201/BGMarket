@@ -1,0 +1,31 @@
+<!ELEMENT bgmarket (infoempresa,productos+)>
+<!ELEMENT infoempresa (nombre,descripcion,direccion,web,email,telefono,disennoweb)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (p+)>
+<!ELEMENT direccion (lugar,calle,numero,codpostal,provincia)>
+<!ELEMENT lugar (#PCDATA)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT codpostal (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT web (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT disennoweb (#PCDATA)>
+
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto (img,nombreproducto,descripcionproducto,precio+)>
+<!ATTLIST producto id CDATA #REQUIRED>
+<!ELEMENT img EMPTY>
+<!ATTLIST img
+                           src CDATA #REQUIRED
+                           alt CDATA #IMPLIED>
+<!ELEMENT nombreproducto (#PCDATA)>
+
+<!ELEMENT descripcionproducto (div,detalles*)>
+<!ELEMENT div (#PCDATA)>
+<!ELEMENT detalles (p+)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda NMTOKEN #FIXED "euro">
+
+<!ELEMENT p (#PCDATA)>
