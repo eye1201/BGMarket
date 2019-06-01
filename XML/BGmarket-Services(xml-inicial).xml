@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="BGmarket-services.xsl"?>
+<bgmarket>
+    <infoempresa>
+      <nombre>BGMarket</nombre>
+      <descripcion>
+        <p>BGMarket es una nueva empresa con tienda local en el CC Espacio León.</p>
+        <p>Nuetras empresa ofrece la venta de productos alimenticios con origen de Bulgaria, para los ciudadanos búlgaros y para cualquiera que desee probar los productos de Bulgaria.</p>
+        <p>Nuestro fundador E.Y.E. ha puesto a disposición de todos los clientes esta web para que puedan conocer los productos disponibles y su precio</p>
+      </descripcion>
+      <direccion>
+        <lugar>C.C. Espacio León</lugar>
+        <calle>Avda. País Leonés</calle>
+        <numero>12</numero>
+        <codpostal>24010</codpostal>
+        <provincia>León</provincia>
+      </direccion>
+      <web>http://eye1201.github.io/BGMarket/</web>
+      <email>eyereviews@protonmail.com</email>
+      <telefono>600000000</telefono>
+      <disennoweb>E.Y.E.</disennoweb>
+    </infoempresa>
+    <productos>
+      <producto id="O1001">
+        <img src="..\img\productos\otros\60 GR ALMIDON FRESA BIOSET.jpg" alt="60 GR ALMIDON FRESA BIOSET"/>
+        <nombreproducto>Almidón de Fresa, 60gr. Bioset</nombreproducto>
+        <descripcionproducto>
+          <div>Preparado de natillas de fresa de la marca Bioset</div>
+          <detalles>
+            <p>Albaricoque</p>
+            <p>Cacaco</p>
+            <p>Caramelo</p>
+            <p>Chocolate</p>
+            <p>Maiz</p>
+            <p>Trigo</p>
+            <p>Frambuesa</p>
+            <p>Kiwi</p>
+            <p>Limón</p>
+            <p>Melocotón</p>
+            <p>Naranja</p>
+            <p>Vainilla</p>
+          </detalles>
+        </descripcionproducto>
+        <precio moneda="euro">0.50</precio>
+      </producto>
+       <producto id="O1002">
+        <img src="..\img\productos\otros\400 GR MASA DE FILO BELLA.jpg" alt="400 GR MASA DE FILO BELLA"/>
+        <nombreproducto>Masa de filo, 400gr. BELLA</nombreproducto>
+        <descripcionproducto>
+          <div>Masa de filo con la que puedes preparar Banitsa (tipo empanada con queso, con calabaza...)</div>
+          <detalles>
+            <p>Masa de Filo, 500gr. Familiya</p>
+            <p>Masa de Filo, 500gr. Odrinski</p>
+          </detalles>
+        </descripcionproducto>
+        <precio moneda="euro">1.40</precio>
+      </producto>
+       <producto id="O1003">
+        <img src="..\img\productos\otros\900 GR BANITSA QUESO FAMILIYA.jpg" alt="900 GR BANITSA QUESO FAMILIYA"/>
+        <nombreproducto>Banitsa de queso, 900gr. Familiya</nombreproducto>
+        <descripcionproducto>
+          <div>"Empanada" típica de Bulgaria</div>
+          <detalles>
+            <p>Banitsa enrollada de queso, 900gr. Familiya</p>
+            <p>mini Banichki de queso, 60gr. BELLA. (x8 en el paquete)</p>
+          </detalles>
+        </descripcionproducto>
+        <precio moneda="euro">2.50</precio>
+      </producto>
+       <producto id="O1004">
+        <img src="..\img\productos\otros\515 GR SALSA LYUTENITSA CASERA OLINEZA.jpg" alt="515 GR SALSA LYUTENITSA CASERA OLINEZA"/>
+        <nombreproducto>Salsa de tomate Casera (Lyutenista), 515gr. Olineza</nombreproducto>
+        <descripcionproducto>
+          <div>Salsa de tomate de tipo casera</div>
+          <detalles>
+            <p>Salsa de tomate (Lyutenista) de abuela, 515gr. Olineza</p>
+            <p>mini Banichki de queso, 60gr. BELLA. (x8 en el paquete)</p>
+            <p>Salsa de tomate (Lyutenista) casera, 315gr. Deroni</p>
+          </detalles>
+        </descripcionproducto>
+        <precio moneda="euro">1.50</precio>
+      </producto>
+       <producto id="O1005">
+        <img src="..\img\productos\otros\900 GR ZELEVI LISTA BAKALINA.jpg" alt="900 GR ZELEVI LISTA BAKALINA"/>
+        <nombreproducto>Zelevi Lista, 900gr. Bakalina</nombreproducto>
+        <descripcionproducto>
+          <div>Hojas de repollo. Bote de 900 gramos de la marca Bakalina</div>
+        </descripcionproducto>
+        <precio moneda="euro">3.00</precio>
+      </producto>
+       <producto id="O1006">
+        <img src="..\img\productos\otros\60 GR PALITOS SALADOS ZLATNA DOBRUDJA SAVIMEX.jpg" alt="60 GR PALITOS SALADOS ZLATNA DOBRUDJA SAVIMEX"/>
+        <nombreproducto>Sticks Salados, 60gr. Zlatna Dobrudja</nombreproducto>
+        <descripcionproducto>
+          <div>Paquete de 60 gramos de sticks o palitos de sal de la marca Zlatna Dobrudja</div>
+        </descripcionproducto>
+        <precio moneda="euro">0.80</precio>
+      </producto>
+       <producto id="E2001">
+        <img src="..\img\productos\especias\10 GR AJEDREA BIOSET.jpg" alt="10 GR AJEDREA BIOSET"/>
+        <nombreproducto>Ajedrea, 10gr. Bioset</nombreproducto>
+        <descripcionproducto>
+          <div>Paquete de Ajedrea de 10 gramos de la marca Bioset</div>
+          <detalles>
+            <p>Orégano, 10gr. Bioset</p>
+            <p>Pimentón dulce, 50gr. Bioset</p>
+        </detalles>
+        </descripcionproducto>
+        <precio moneda="euro">0.70</precio>
+      </producto>
+       <producto id="L3001">
+        <img src="..\img\productos\lacteos\400 GR KISELO MLYAKO KRAVE MEGGLE.jpg" alt="400 GR KISELO MLYAKO KRAVE 3.6% MEGGLE"/>
+        <nombreproducto>Yogur natural, 400gr, 3.6%. Meggle</nombreproducto>
+        <descripcionproducto>
+          <div>Yogur natural de vaca (Kiselo Mlyako) elaborado con Lactobacillus Bulgaricus con 3,6% de grasa de leche de la marca Meggle</div>
+          <detalles>
+            <p>Yoogur natural con sabor a fresa, 0.3L. Meggle</p> 
+          </detalles>
+        </descripcionproducto>
+        <precio moneda="euro">1.20</precio>
+      </producto>
+       <producto id="L3002">
+        <img src="..\img\productos\lacteos\0.5 L BEBIDA BOZA BALKANICA.jpg" alt="0.5 L BEBIDA BOZA BALKANICA.jpg"/>
+        <nombreproducto>Boza, bebida, 0.5.</nombreproducto>
+        <descripcionproducto>
+          <div>Boza, bebida de 0.5L, como complemento a Banitsa</div>
+        </descripcionproducto>
+        <precio moneda="euro">0.80</precio>
+      </producto>
+       <producto id="D4001">
+        <img src="..\img\productos\dulces\49 GR BARQUILLOS MORENI MAXX.jpg" alt="49 GR BARQUILLOS MORENI"/>
+        <nombreproducto>Barquillos Moreni Maxx, 49gr.</nombreproducto>
+        <descripcionproducto>
+          <div>Barquillos Moreni Maxx, 49 gramos la unidad. Una crujiente gallete con cacahuetes recubierta de chocolate.</div>
+          <detalles>
+            <p>Barquillos Borovets, 630gr. Una crujiente galleta con chocolate. (Venta de una caja/paquete)</p>
+            <p>Barquillos Chudo, 80gr/ud. Una crujiente gallete con cacahuetes recubierta de chocolate</p>
+            <p>Barquillos Naya, 150gr. (venta de una caja/paquete)</p>
+        </detalles>
+        </descripcionproducto>
+        <precio moneda="euro">0.35</precio>
+        <precio moneda="euro">1.25</precio>
+      </producto>
+       <producto id="D4002">
+        <img src="..\img\productos\dulces\galletas Prestige.jpg" alt="Galletas Prestige"/>
+        <nombreproducto>Galletas Prestige</nombreproducto>
+        <descripcionproducto>
+          <div>Galletas recuerbitas de chocolate con y sin relleno, dependiendo de cual esocjas.</div>
+          <detalles>
+            <p>Galletas Prestige recubiertas de chocolate, 400gr. En forma de círculos.</p>
+            <p>Galletas Mirage-Prestige con crema de fresa, 216gr.</p>
+        </detalles>
+        </descripcionproducto>
+        <precio moneda="euro">1.25</precio>
+      </producto>
+       <producto id="D4003">
+        <img src="..\img\productos\dulces\160 GR BOMBONES DE CHOCOLATE FRESA SEZONI.jpg" alt="160 GR BOMBONES DE CHOCOLATE FRESA SEZONI"/>
+        <nombreproducto>Bombones Sezoni</nombreproducto>
+        <descripcionproducto>
+          <div>Bombones de Chocolate con relleno de fresa. Sezoni.</div>
+          <detalles>
+            <p>Bombones de Chocolate con relleno de albaricoque. Sezoni</p>
+            <p>Bombones de Chocolate con relleno de cereza. Sezoni</p>
+            <p>Bombones de Chocolate con relleno de ron. Sezoni</p>
+            <p>Bombones de Chocolate con relleno de vainilla. Sezoni</p>
+        </detalles>
+        </descripcionproducto>
+        <precio moneda="euro">1.10</precio>
+      </producto>
+       <producto id="D4004">
+        <img src="..\img\productos\dulces\250 GR CRUASAN CACAO GIGA.jpg" alt="250 GR CRUASAN CACAO GIGA"/>
+        <nombreproducto>Cruasan 7Days Giga</nombreproducto>
+        <descripcionproducto>
+          <div>Cruasan 7Days Giga con relleno de chocolate, 250gramos.</div>
+          <detalles>
+            <p>7Days con relleno de fresa y nata</p>
+            <p>7Days con relleno de vainilla y recubierto de chocolate</p>
+        </detalles>
+        </descripcionproducto>
+        <precio moneda="euro">0.70</precio>
+      </producto>
+       <producto id="D4005">
+        <img src="..\img\productos\dulces\140 GR DELICIA TURCA (LOKUM) FLORES ZZGO.jpg" alt="140 GR DELICIA TURCA (LOKUM) FLORES ZZGO"/>
+        <nombreproducto>Delicia Turca (Lokum)</nombreproducto>
+        <descripcionproducto>
+          <div>Delicia Turca (Lokum) con sabor a rosa</div>
+          <detalles>
+            <p>Lokum sabor a fresa</p>
+            <p>Lokum sabor a vainilla</p>
+          </detalles>
+        </descripcionproducto>
+        <precio moneda="euro">1.00</precio>
+      </producto>
+       <producto id="D4006">
+        <img src="..\img\productos\dulces\90 GR CARAMELOS DROPS VIOLETAS ZZGO.jpg" alt="90 GR CARAMELOS DROPS VIOLETAS ZZGO"/>
+        <nombreproducto>Caramelos sabor violetas</nombreproducto>
+        <descripcionproducto>
+          <div>caramelos de sabor a violetas. de ZZGO</div>
+        </descripcionproducto>
+        <precio moneda="euro">0.90</precio>
+      </producto>
+       <producto id="D4007">
+        <img src="..\img\productos\dulces\90 GR CHOCOLATE LECHE SVOGE.jpg" alt="90 GR CHOCOLATE LECHE SVOGE"/>
+        <nombreproducto>Chocolate con leche Svoge</nombreproducto>
+        <descripcionproducto>
+          <div>Tableta de chocolate con leche de la marca Svoge</div>
+        </descripcionproducto>
+        <precio moneda="euro">0.95</precio>
+      </producto>
+       <producto id="C5001">
+        <img src="..\img\productos\carnes\230 GR SALAMI SHPEK BURGAS OREHITE.jpg" alt="230 GR SALAMI SHPEK BURGAS OREHITE"/>
+        <nombreproducto>Salami (shpek) Burgas, 230gr. Orehite</nombreproducto>
+        <descripcionproducto>
+          <div>Salami (shpek) Burgas de 230gramos de la marca Orehite. Muy característico de Bulgaria.</div>
+        </descripcionproducto>
+        <precio moneda="euro">2.30</precio>
+      </producto>
+       <producto id="C5002">
+        <img src="..\img\productos\carnes\180 GR EMBUTIDO LUKANKA DOBRUDJANSKA OREHITE.jpg" alt="180 GR EMBUTIDO LUKANKA DOBRUDJANSKA OREHITE"/>
+        <nombreproducto>Embutido (Lukanka) Dobrujanska, 180gr. Orehite</nombreproducto>
+        <descripcionproducto>
+          <div>Embutido (Lukanka) Dobrujanska, 180gr. Orehite. Similar al salchichón pero a menudo de sabor más fuerte. Es de forma aplastada y sus rodajas son aplastadas.</div>
+          <detalles>
+            <p>Panagyurska</p>
+          </detalles>
+        </descripcionproducto>
+        <precio moneda="euro">2.75</precio>
+      </producto>
+       <producto id="C5003">
+        <img src="..\img\productos\carnes\170 GR EMBUTIDO SUDJUK TRADICIONAL BULGARO DE TERNERA KFM.jpg" alt="170 GR EMBUTIDO SUDJUK TRADICIONAL BULGARO DE TERNERA KFM"/>
+        <nombreproducto>Embutido (Sudjuk) tradicional búlgaro de ternera, 170gr. KFM</nombreproducto>
+        <descripcionproducto>
+          <div>Embutido (Sudjuk) tradicional búlgaro de ternera, 170gr. KFM.</div>
+        </descripcionproducto>
+        <precio moneda="euro">2.25</precio>
+      </producto>
+       <producto id="C5004">
+        <img src="..\img\productos\carnes\150 GR LONGANIZA ENROLLADA EN PINCHO BALKANICA X 4.jpg" alt="150 GR LONGANIZA ENROLLADA EN PINCHO BALKANICA X 4"/>
+        <nombreproducto>Loganiza enrollada. BALKANICA</nombreproducto>
+        <descripcionproducto>
+          <div>Longaniza enrollada (karnache) de carne carne de cerdo. 4 unidades de 150 gramos.</div>
+        </descripcionproducto>
+        <precio moneda="euro">4.40</precio>
+      </producto>
+       <producto id="C5005">
+        <img src="..\img\productos\carnes\1 KG PARRILLADA FAMILIAR BALKANICA.jpg" alt="1 KG PARRILLADA FAMILIAR BALKANICA"/>
+        <nombreproducto>Parillada Familiar de 1KG. BALKANICA</nombreproducto>
+        <descripcionproducto>
+          <div>Parillada Familiar compuesta de longaniza sin tripa (Kebapche) y albondigas. Producto de carne de cerdo.</div>
+          <detalles>
+            <p>Se venden albondigas y longanizas en bandeja por separado (12uds en bandejda). Mismo precio.</p>
+          </detalles>
+        </descripcionproducto>
+        <precio moneda="euro">5.50</precio>
+      </producto>
+       <producto id="B6001">
+        <img src="..\img\productos\bebidas\Lata-CERVEZA-CLARA-KAMENITZA_0.5L.jpg" alt="0.5 L CERVEZA CLARA KAMENITZA 4.4% - 10.2P"/>
+        <nombreproducto>Cerveza Kamenitza</nombreproducto>
+        <descripcionproducto>
+          <div>Lata de Cerveza Kamenitza de 0.5L. 4.4%-10.2p</div>
+        </descripcionproducto>
+        <precio moneda="euro">0.65</precio>
+      </producto>
+       <producto id="B6002">
+        <img src="..\img\productos\bebidas\CERVEZA-ESPECIAL-ZAGORKA_0.5L.jpg" alt="0.5 L CERVEZA ESPECIAL ZAGORKA 5% - 11.4P"/>
+        <nombreproducto>Cerveza Zagorka</nombreproducto>
+        <descripcionproducto>
+          <div>Lata de cerveza especial Zagorka, 0.5L. 5%-11,4p.</div>
+        </descripcionproducto>
+        <precio moneda="euro">0.65</precio>
+      </producto>
+       <producto id="B6003">
+        <img src="..\img\productos\bebidas\LIMONADA-DERBY_2L.jpg" alt="2 L LIMONADA DERBY"/>
+        <nombreproducto>Limonada Derby</nombreproducto>
+        <descripcionproducto>
+          <div>Botella de 2 litros de Limonada (bebida carbohidratada).</div>
+        </descripcionproducto>
+        <precio moneda="euro">1.75</precio>
+      </producto>
+    </productos>
+</bgmarket>
