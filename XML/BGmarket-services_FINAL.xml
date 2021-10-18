@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="BGmarket-services.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="BGmarket-services.xslt"?>
 <bgmarket>
     <infoempresa>
       <nombre>BGMarket</nombre>
